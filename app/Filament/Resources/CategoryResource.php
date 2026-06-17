@@ -91,11 +91,6 @@ class CategoryResource extends Resource
             ->defaultSort('display_order');
     }
 
-    public static function getRelations(): array
-    {
-        return [];
-    }
-
     public static function getPages(): array
     {
         return [
